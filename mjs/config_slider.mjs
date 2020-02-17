@@ -7,19 +7,28 @@ export const config_slider = {
         {
             titre : 'Le Titre',
             sousTitre : 'Le sous titre',
-            img : 'img/01_portfolio.jpg'
+            img : '../img/img1.jpeg'
         },
         {
             titre : 'Le Titre',
             sousTitre : 'Le sous titre',
-            img : 'img/02_portfolio.jpg'
+            img : '../img/img2.jpeg'
         },
         {
             titre : 'Le Titre',
             sousTitre : 'Le sous titre',
-            img : 'img/03_portfolio.jpg'
+            img : '../img/img3.jpeg'
+        },
+        {
+            titre : 'Le Titre',
+            sousTitre : 'Le sous titre',
+            img : '../img/img4.jpeg'
+        },
+        {
+            titre : 'Le Titre',
+            sousTitre : 'Le sous titre',
+            img : '../img/img5.jpeg'
         }
-
 
     ]
 }
