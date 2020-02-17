@@ -1019,8 +1019,8 @@ desktop : 4 colonnes
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#74ABE2), to(#5563DE));
-  background: linear-gradient(to bottom, #74ABE2, #5563DE);
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#949494));
+  background: linear-gradient(to bottom, white, #949494);
   font-family: 'Ropa Sans', sans-serif;
   overflow: hidden;
   width: 100%;
@@ -1175,22 +1175,6 @@ img {
     }
 }
 */
-.mon-slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#74ABE2), to(#5563DE));
-  background: linear-gradient(to bottom, #74ABE2, #5563DE);
-  font-family: 'Ropa Sans', sans-serif;
-  overflow: hidden;
-}
-
 /*-------------------------------------------------------------- 
 # Anim Entete 
 ---------------------------------------------------------------- */
