@@ -1196,8 +1196,8 @@ img {
 ---------------------------------------------------------------- */
 @-webkit-keyframes animEntete {
   from {
-    -webkit-transform: translateX(500px);
-            transform: translateX(500px);
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
   }
   to {
     -webkit-transform: translateX(0px);
@@ -1206,8 +1206,8 @@ img {
 }
 @keyframes animEntete {
   from {
-    -webkit-transform: translateX(500px);
-            transform: translateX(500px);
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
   }
   to {
     -webkit-transform: translateX(0px);
