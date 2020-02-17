@@ -22,9 +22,14 @@ export class Slider {
             let elmImg = document.createElement('img')
             elmImg.src = this.list_slide[k-1].img
 
+            let elmBouton = document.createElement('a')
+            elmBouton.href = "#" + elmSlide.id;
+            elmBouton.innerHTML = k;
+
             k++
             elmSlides.appendChild(elmSlide)
             elmSlide.appendChild(elmImg);
+            elmSlider.appendChild(elmBouton);
         }
         elmSlider.appendChild(elmSlides)
         this.elmMonSlider.appendChild(elmSlider)
